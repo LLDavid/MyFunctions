@@ -2,8 +2,8 @@ import cv2
 import numpy as np
 import os
 
-video_dir=r"C:\Users\28399\Desktop\Data\Drive\sub01"
-video_name=r"138e6236-2ec2-4ac4-a36d-dc9c5e0e9a73.mp4"
+video_dir=r"C:\Users\lli40\Desktop\DrivingData\Video\03"
+video_name=r"f2d5f586-5875-4e91-a958-aac16612975d.mp4"
 video_path=video_dir+"\\"+video_name
 image_dir=video_dir+"\\"+video_name[:-4]
 folder = os.path.exists(image_dir)
